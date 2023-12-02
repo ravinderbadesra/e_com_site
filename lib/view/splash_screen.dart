@@ -1,6 +1,8 @@
 import 'package:ecomfirebase/common_Widget.dart/app_Logo.dart';
 import 'package:ecomfirebase/const/consts.dart';
+import 'package:ecomfirebase/view/BottomScreen.dart';
 import 'package:ecomfirebase/view/authScreen/login_screen.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -13,13 +15,17 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
   changeScreen() {
-    Future.delayed(Duration(seconds: 3),() => Get.to(LoginScreen()));
-     
+    Future.delayed(const Duration(seconds: 4), () {
+      if (FirebaseAuth.instance.currentUser != null) {
+        Get.to(BottomScreen());
+      } else {
+        Get.to(LoginScreen());
+      }
+    });
   }
 
   @override
   void initState() {
-    // TODO: implement initState
     changeScreen();
     super.initState();
   }

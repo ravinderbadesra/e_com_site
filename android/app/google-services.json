@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1094243701505",
+    "project_id": "e-mart-5be34",
+    "storage_bucket": "e-mart-5be34.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094243701505:android:d3940918b701c745d64100",
+        "android_client_info": {
+          "package_name": "com.example.ecomfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVgeURqjIST2dThTzb-Q8Ic-ovoo3xfwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,82 @@
+{
+    "catagories":[
+       { "name":"Women Dress",
+        "subcategories":[
+            "Wedding & Event",
+            "Tops & Sets",
+            "Watches"
+        ]
+    },{
+        "name":"Men Clothing & Dress",
+        "subcategories":[
+            "Outwear & Jackets",
+            "Formal Dress",
+            "Accessories"
+
+        ]
+    },{
+        "name":"Computers & accessories",
+        "subcategories":[
+            "Laptop",
+            "Gaming PC",
+            "Official Equipement"
+
+        ]
+    },{
+        "name":"Men Fashion & Dress",
+        "subcategories":[
+            "Outwear & Jackets",
+            "Fancy Dress",
+            "Accessories"
+
+        ]
+    },{
+        "name":"Automobile",
+        "subcategories":[
+            "Sports Cars",
+            "Racing Bikes"
+
+        ]
+    },{
+        "name":"Kids & Toys",
+        "subcategories":[
+            "shoes & Bags",
+            "Baby Clothing",
+            "Girls Toys"
+
+        ]
+    },{
+        "name":"Toys",
+        "subcategories":[
+            "Cycling",
+            "Sneakers",
+            "Swimming"
+
+        ]
+    },{
+        "name":"Jewelery",
+        "subcategories":[
+            "Necklace",
+            "Gold",
+            "Earing"
+
+        ]
+    },{
+        "name":"Celling & Tab",
+        "subcategories":[
+            "Samarrtphone",
+            "Tablets",
+            "Accessories"
+
+        ]
+    },{
+        "name":"Furniture",
+        "subcategories":[
+            "Sofa",
+            "Bed",
+            "Alemirah"
+
+        ]
+    }
+    ]
+}
